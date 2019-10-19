@@ -4,8 +4,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { blue } from '@material-ui/core/colors';
-import { Link } from "react-router-dom";
+import { blue, grey } from '@material-ui/core/colors';
+import { Link, Redirect } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -16,6 +16,10 @@ const useStyles = makeStyles(theme => ({
   },
   header: {
     backgroundColor: blue[400],
+  },
+  button: {
+    color: grey[50],
+    textDecoration: 'none'
   }
 }));
 
@@ -30,11 +34,13 @@ export default function ButtonAppBar() {
             AdotaPatas
           </Typography>
           <Typography className={classes.title}></Typography>
-          <Button color="inherit">Pets
-              <Link to="/pets"></Link>
-          </Button>
+          <Link to="/pets" className={classes.button}>
+            <Button color="inherit">Pets</Button>
+          </Link>
           <Button color="inherit" edge="end">Produtos</Button>
-          <Button color="inherit">Área Pets</Button>
+          <Link to="/portal" className={classes.button}>
+            <Button color="inherit">Área Pets</Button>
+          </Link>
         </Toolbar>
       </AppBar>
     </div>
