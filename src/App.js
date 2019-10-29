@@ -7,14 +7,14 @@ import PortalPetPage from './view/PortalPetPage';
 function App() {
   return (
     <div className="App">
-      <div className='container-fluid'>
-        <div className='row'> 
-          <div className='col'>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
             <BrowserRouter>
               <Switch>
-                <Route path='/' exact component={PetsPage} />
-                <Route path='/pets' exact component={PetsPage} />
-                <Route path='/portal' exact component={PortalPetPage} />
+                <Route path="/" exact component={PetsPage} />
+                <Route path="/pets" exact component={PetsPage} />
+                <Route path="/portal" exact component={PortalPetPage} />
               </Switch>
             </BrowserRouter>
           </div>

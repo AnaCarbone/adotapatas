@@ -1,17 +1,17 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import { blue, grey } from '@material-ui/core/colors';
-import { Link, Redirect } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const useStyles = makeStyles(theme => ({
+import {
+  AppBar, Toolbar, Typography, Button,
+} from '@material-ui/core/';
+import { blue, grey } from '@material-ui/core/colors';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,
   },
-  title :{
+  title: {
     flexGrow: 1,
   },
   header: {
@@ -19,8 +19,8 @@ const useStyles = makeStyles(theme => ({
   },
   button: {
     color: grey[50],
-    textDecoration: 'none'
-  }
+    textDecoration: 'none',
+  },
 }));
 
 export default function ButtonAppBar() {
@@ -30,10 +30,10 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.header}>
         <Toolbar>
-          <Typography variant="h6" >
+          <Typography variant="h6">
             AdotaPatas
           </Typography>
-          <Typography className={classes.title}></Typography>
+          <Typography className={classes.title} />
           <Link to="/pets" className={classes.button}>
             <Button color="inherit">Pets</Button>
           </Link>
