@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adotapatas/static/css/main.b100e6da.chunk.css",
+    "main.css": "/adotapatas/static/css/main.5e4e9510.chunk.css",
     "main.js": "/adotapatas/static/js/main.397ea631.chunk.js",
     "main.js.map": "/adotapatas/static/js/main.397ea631.chunk.js.map",
     "runtime-main.js": "/adotapatas/static/js/runtime-main.02616eac.js",
@@ -8,9 +8,9 @@
     "static/js/2.c1ba12b7.chunk.js": "/adotapatas/static/js/2.c1ba12b7.chunk.js",
     "static/js/2.c1ba12b7.chunk.js.map": "/adotapatas/static/js/2.c1ba12b7.chunk.js.map",
     "index.html": "/adotapatas/index.html",
-    "precache-manifest.55526d0dc328aea73a0aa41eaf18f591.js": "/adotapatas/precache-manifest.55526d0dc328aea73a0aa41eaf18f591.js",
+    "precache-manifest.c854ed53f782f86e852971752aaeb132.js": "/adotapatas/precache-manifest.c854ed53f782f86e852971752aaeb132.js",
     "service-worker.js": "/adotapatas/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/adotapatas/static/css/main.b100e6da.chunk.css.map",
+    "static/css/main.5e4e9510.chunk.css.map": "/adotapatas/static/css/main.5e4e9510.chunk.css.map",
     "static/media/cat-miguel.jpg": "/adotapatas/static/media/cat-miguel.359a6529.jpg",
     "static/media/dog-meg.jpg": "/adotapatas/static/media/dog-meg.ce017cce.jpg",
     "static/media/dog-woody.JPG": "/adotapatas/static/media/dog-woody.e91e5196.JPG",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.02616eac.js",
     "static/js/2.c1ba12b7.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
+    "static/css/main.5e4e9510.chunk.css",
     "static/js/main.397ea631.chunk.js"
   ]
 }
