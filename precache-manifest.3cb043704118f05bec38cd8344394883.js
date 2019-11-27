@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7019007826c2e9ee46e6c4817830f9c5",
+    "revision": "412a1245e4b8c8f338358c837762b03a",
     "url": "/adotapatas/index.html"
   },
   {
-    "revision": "c1bc6cb9b2ac9a9e1a6b",
+    "revision": "7538cec77ef84e92fdfc",
     "url": "/adotapatas/static/css/main.5e4e9510.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adotapatas/static/js/2.c1ba12b7.chunk.js"
   },
   {
-    "revision": "c1bc6cb9b2ac9a9e1a6b",
-    "url": "/adotapatas/static/js/main.905c0525.chunk.js"
+    "revision": "7538cec77ef84e92fdfc",
+    "url": "/adotapatas/static/js/main.e2b97021.chunk.js"
   },
   {
     "revision": "b6f8621778ca3736ff43",
